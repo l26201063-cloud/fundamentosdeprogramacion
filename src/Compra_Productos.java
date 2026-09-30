@@ -6,7 +6,7 @@ public class Compra_Productos {
         int productos;
         final double PORC_DESCUENTO = 0.10;
         final int COSTO_FIJO = 80;
-        System.out.println("===TIENDITA DE CRI===");
+        System.out.println("===TIENDA===");
         System.out.println("Ponga el precio del producto: ");
         precio = scanner.nextDouble();
         System.out.println("Cual es la cantidad de productos que se desea comprar?");
