@@ -23,7 +23,6 @@ public class Sistema_Calificaciones {
         } else {
             System.out.println("Usted ha reprobado la materia");
         }
-
         if (calificacion1 < MINIMO_UNIDAD) {
             System.out.println("Deberás recursar la unidad 1");
         }

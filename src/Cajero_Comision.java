@@ -18,7 +18,7 @@ public class Cajero_Comision {
             System.out.println("Saldo final:    $" + saldoFinal);
         } else {
             String motivo;
-            if (retiro <= 0) {
+            if (retiro <= 0) { 
                 motivo = "La cantidad debe ser mayor a cero.";
             } else if (retiro > LIMITE_RETIRO) {
                 motivo = "La cantidad supera el límite de $" + LIMITE_RETIRO + ".";
